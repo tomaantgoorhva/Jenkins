@@ -10,10 +10,6 @@ class Encrypt {
         $hash2 = sha1("[{h34g2534u56489er<:/".$hash1."?;>rguh3r8sdaf8sa83j}]");
         $hash3 = substr($hash2, 0, 30);
         
-        # Testing, give wong result
-        return "12345";
-        
-        
         return $hash3;
     }
 }
